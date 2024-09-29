@@ -37,7 +37,3 @@ next-env.d.ts
 
 # contentlayer
 .contentlayer
-
-
-# media folder
-media/
