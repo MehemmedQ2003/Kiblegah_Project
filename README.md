@@ -22,11 +22,6 @@
     <br/>
     <br/>
     <br/>
-
-# Kıblegah uygulaması tanıtım sitesi videosu
-<video src='./public/media/kıblegah_video.mp4' width='100%' height='100%' controls>
-  Your browser does not support the video tag.
-</video>
 </div>
 
 

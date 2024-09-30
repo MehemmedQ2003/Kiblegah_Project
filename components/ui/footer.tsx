@@ -1,7 +1,7 @@
 import Link from "next/link";
 import LogoImage from "@/public/images/kıblegah-icon.jpg"
 import Image from "next/image";
-import { FaInstagram, FaFacebook, FaYoutube, FaTelegram, FaAppStoreIos } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaYoutube, FaTelegram, FaAppStoreIos, FaGithub  } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { TiVendorAndroid } from "react-icons/ti";
 
@@ -73,6 +73,16 @@ export default function Footer() {
                   aria-label="Telegram"
                 >
                   <FaTelegram />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="border rounded-lg text-2xl flex p-2 items-center justify-center bg-black transition hover:scale-110 duration-200"
+                  href="#0"
+                  style={{ background: "#000000", color: "white "}}
+                  aria-label="Telegram"
+                >
+                  <FaGithub />
                 </Link>
               </li>
             </ul>
