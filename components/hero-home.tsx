@@ -21,7 +21,13 @@ export default function HeroHome() {
             data-aos="zoom-y-out"
             data-aos-delay={600}
           >
-            <Image src={MainImage} alt="Hero Image" />
+            <video
+              src='/media/kıblegah_video.mp4'
+              width='1440'
+              height='680'
+              controls
+            />
+
           </div>
         </div>
       </div>

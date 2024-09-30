@@ -16,10 +16,23 @@
     <br/>
     <h1>Alt bilgi</h1>
     <img src="public/media/footer.png" />
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+# Kıblegah uygulaması tanıtım sitesi videosu
+<video src='./public/media/kıblegah_video.mp4' width='100%' height='100%' controls>
+  Your browser does not support the video tag.
+</video>
 </div>
 
 
 
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
