@@ -31,9 +31,6 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
 
 # Kullanılan Teknolojiler
 
