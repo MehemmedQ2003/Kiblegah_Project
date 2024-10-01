@@ -42,35 +42,14 @@ const imageInfo = [
 
 export default function FeaturesPlanet() {
   return (
-    <section className="relative before:absolute before:inset-0 before:-z-20" data-aos-delay={150} data-aos="zoom-y-out" style={{backgroundColor: "#C3922A"}}>
+    <section className="relative before:absolute before:inset-0 before:-z-20" data-aos-delay={150} data-aos="zoom-y-out" style={{backgroundColor: "#F3F3F3"}}>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           <div className="mx-auto pb-16 text-center md:pb-20">
-            <h1 className="text-5xl font-bold bg-white p-3 rounded-lg text-olive md:text-6xl">
+            <h1 className="text-5xl font-bold bg-inherit p-3 rounded-lg text-olive md:text-6xl">
               Kıblegah uygulama resimleri
             </h1>
           </div>
-          {/* <div className="grid overflow-hidden sm:grid-cols-2 lg:grid-cols-3 [&>*]:relative [&>*]:p-6 [&>*]:before:absolute [&>*]:before:bg-gray-800 [&>*]:before:[block-size:100vh] [&>*]:before:[inline-size:1px] [&>*]:before:[inset-block-start:0] [&>*]:before:[inset-inline-start:-1px] [&>*]:after:absolute [&>*]:after:bg-gray-800 [&>*]:after:[block-size:1px] [&>*]:after:[inline-size:100vw] [&>*]:after:[inset-block-start:-1px] [&>*]:after:[inset-inline-start:0] md:[&>*]:p-10">
-            <article>
-              <Image src={Image1} className="border rounded-3xl" alt="Image1" style={{height: "500px"}} />
-            </article>
-            <article>
-              <Image src={Image2} className="border rounded-3xl" alt="Image2" style={{height: "500px"}} />
-            </article>
-            <article>
-              <Image src={Image3} className="border rounded-3xl" alt="Image3" style={{height: "500px"}} />
-            </article>
-            <article>
-              <Image src={Image4} className="border rounded-3xl" alt="Image4" style={{height: "500px"}} />
-            </article>
-            <article>
-              <Image src={Image5} className="border rounded-3xl" alt="Image5" style={{height: "500px"}} />
-            </article>
-            <article>
-              <Image src={Image6} className="border rounded-3xl" alt="Image6" style={{height: "500px"}} />
-            </article>
-          </div> */}
-
           {
             imageInfo.map((images, index) => (
               <div data-aos-delay={150} data-aos="zoom-y-out" key={index}>
@@ -82,14 +61,14 @@ export default function FeaturesPlanet() {
                   {index % 2 === 1 ? (
                     <>
                       <article className="flex justify-center items-center transform hover:scale-105 transition duration-300">
-                        <h5 className="text-lg font-bold text-gray-200 text-center mb-4 shadow-2xl p-5 rounded-3xl border">
+                        <h5 className="text-lg font-bold text-gray-900 bg-yellow text-center mb-4 shadow-2xl p-5 rounded-3xl border">
                           {images.image_description}
                         </h5>
                       </article>
                       <article className="flex justify-center items-center">
                         <Image
                           src={images.image}
-                          className="border rounded-3xl"
+                          className="rounded-3xl"
                           alt="..."
                         />
                       </article>
@@ -99,12 +78,12 @@ export default function FeaturesPlanet() {
                       <article className="flex justify-center items-center">
                         <Image
                           src={images.image}
-                          className="border rounded-3xl"
+                          className="rounded-3xl"
                           alt="..."
                         />
                       </article>
                       <article className="flex justify-center items-center transform hover:scale-105 transition duration-300">
-                        <h5 className="text-lg font-bold text-gray-200 text-center mb-4 shadow-2xl p-5 rounded-3xl border">
+                        <h5 className="text-lg font-bold text-gray-200 bg-vampireBlack text-center mb-4 shadow-2xl p-5 rounded-3xl border">
                           {images.image_description}
                         </h5>
                       </article>

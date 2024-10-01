@@ -8,7 +8,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        olive: "#C3922A"
+        olive: "#C3922A",
+        yellow: "#FFD112",
+        vampireBlack: "#0A0A0A"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

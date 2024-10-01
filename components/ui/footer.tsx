@@ -121,7 +121,7 @@ export default function Footer() {
             <ul className="text-center">
               <li>
                 <Link
-                  className="text-gray-900 text-xl  transition hover:text-gray-900"
+                  className="text-gray-900 text-xl transition-all hover:text-gray-900 hover:text-2xl"
                   href="mailto:info@tevhiddergisi.com"
                 >
                   info@tevhiddergisi.com
@@ -129,7 +129,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  className="text-gray-900 text-xl  transition hover:text-gray-900"
+                  className="text-gray-900 text-xl transition-all hover:text-gray-900 hover:text-2xl"
                   href="mailto:info@tevhiddergisi.com"
                 >
                   info@tevhiddergisi.com
@@ -137,7 +137,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  className="text-gray-900 text-xl  transition hover:text-gray-900"
+                  className="text-gray-900 text-xl transition-all hover:text-gray-900 hover:text-2xl"
                   href="mailto:info@tevhiddergisi.com"
                 >
                   info@tevhiddergisi.com
@@ -147,7 +147,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="text-2xl text-gray-900 font-bold text-center mt-20 mb-4">
+        <div className="text-2xl text-gray-900 font-bold text-center mt-24 mb-4">
           &copy; {currentYear} Kıblegah - All rights reserved.
         </div>
       </div>
